@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:layout_marginBottom="8dp"
+        android:text="Select Your Programming Language "
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkandroid"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/color1"
+        android:text="@string/android"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp" />
+
+    <CheckBox
+        android:id="@+id/checkjava"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/java"
+        android:background="@color/color1"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"/>
+    <CheckBox
+        android:id="@+id/checkphp"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/php"
+        android:background="@color/color1"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp" />
+
+    <CheckBox
+        android:id="@+id/checkpython"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/python"
+        android:background="@color/color1"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp" />
+
+    <CheckBox
+        android:id="@+id/checkunity"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/unity"
+        android:background="@color/color1"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp" />
+
+</LinearLayout>

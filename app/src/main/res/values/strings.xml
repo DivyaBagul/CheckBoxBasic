@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CheckBoxBasic</string>
+    <string name="android">Android</string>
+    <string name="java">Java</string>
+    <string name="php">PHP</string>
+    <string name="python">Python</string>
+    <string name="unity">Unity 3D</string>
+</resources>
